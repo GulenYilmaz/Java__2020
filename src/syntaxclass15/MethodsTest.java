@@ -19,6 +19,10 @@ public class MethodsTest {
 		obj.isItRaining(true);
 		obj.isItRaining(false);
 		
+		obj.evenOrOdd(23);
+		obj.isLarger(12, 13);
+		obj.isPalindrome("Madam");
+		obj.sayHello("RUSSIA");
 		
 	}
 
