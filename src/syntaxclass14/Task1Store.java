@@ -3,7 +3,7 @@ package syntaxclass14;
 public class Task1Store {
 
 	
-// create an object from Ohine class
+// create an object from phone class
 //instance phone class
 	
 	public static void main(String[] args) {

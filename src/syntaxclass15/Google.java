@@ -13,7 +13,7 @@ public class Google {
 	
 	void working() // method header
 		
-	{//method body
+	{              //method body
 		System.out.println(title+" is working");
 	}
 	void getPaid() {
@@ -25,7 +25,8 @@ public class Google {
 	
 	
 	public static void main(String [] args) {
-System.out.println("----emp1-------first object-------");		
+System.out.println("----emp1-------first object-------");
+
 		Google emp1=new Google();// we can access variables: empId, salary.. and methods: getPaid, working...
 		emp1.empId=123;
 		emp1.name="John";
@@ -57,8 +58,6 @@ System.out.println("-------emp2-------second object----");
 		
 		
 	}
-	
-	
 	
 	
 	

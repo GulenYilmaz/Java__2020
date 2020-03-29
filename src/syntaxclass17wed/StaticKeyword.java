@@ -21,12 +21,23 @@ public class StaticKeyword {
 		//return type, name, parameters
 		static void displayGeneralInfo() {
 			System.out.println("We are building "+brand+" with touch screen = "+touchScreen);
-		}
+		}//can access only static variables
+		
+		
+		
+		//instance member of the class can access all static members
 		void displaySpecification() {
-			System.out.println("We build phone with "+memory+"GB memory in "+color+"color");
-		}
+			System.out.println("We build phone with "+memory+brand+"GB memory in "+color+"color");
+		}// you can access static members --->brand
+
 		
 		
+		
+		//static methods cannot access non static members of the class
+//		static void displaySpecification1() {
+//			System.out.println("We build phone with "+memory+"GB memory in "+color+"color");
+//		}
+//		--->CE
 		
 		
 		
@@ -48,7 +59,7 @@ public class StaticKeyword {
 			obj.displayGeneralInfo();//obj ve isim yaziyoruz
 			
 			
-			//accessing atatic methods in non static way/through instance
+			//accessing static methods in non static way/through instance
 			obj.displayGeneralInfo(); // valid but not preferance
 			obj.displayGeneralInfo();
 			

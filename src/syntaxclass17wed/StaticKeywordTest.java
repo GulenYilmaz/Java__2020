@@ -11,6 +11,7 @@ public class StaticKeywordTest {
 		StaticKeyword.brand="Android";
 		StaticKeyword.touchScreen=true;
 		StaticKeyword.displayGeneralInfo();
+
 		
 		//access instance members of another class
 		StaticKeyword sk=new StaticKeyword();  // statickeyword-->sk
@@ -25,7 +26,10 @@ public class StaticKeywordTest {
 		StaticKeyword sk2=new StaticKeyword();  // statickeyword-->sk
 		sk2.color="red";
 		sk2.memory=128;
-		sk2.brand="nokia";
+		sk2.brand="nokia"; // brand will change all instances object
+		
+		
+		//n
 		sk2.displayGeneralInfo();
 		sk1.displayGeneralInfo();
 		sk.displayGeneralInfo();
