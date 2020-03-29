@@ -2,7 +2,7 @@ package syntaxclass19;
 
 public class Recap {
 	
-	public class Recap {
+
 		
 		Recap() {
 			System.out.println("Constructor with no arguments");
