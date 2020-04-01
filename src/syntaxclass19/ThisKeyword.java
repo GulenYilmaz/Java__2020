@@ -20,11 +20,11 @@ public class ThisKeyword {
 	}
 	
 	public static void main(String[] args) {
-		ThisKeyword obj=new ThisKeyword(10, 20);
+		ThisKeyword obj=new ThisKeyword(10, 20);//this a=10 and this b=20
 		obj.sum(100, 200);
 		
 		System.out.println("------------------------------------------");
-		ThisKeyword obj2=new ThisKeyword();
+		ThisKeyword obj2=new ThisKeyword(); //this a=0 and this b=0
 		obj2.sum(20, 40);
 	}
 }

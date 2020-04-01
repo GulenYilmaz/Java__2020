@@ -3,7 +3,7 @@ package syntaxclass19;
 public class Constructors {
 	
 	Constructors() {
-		this(1);//always must be 1 line inside the constructor
+		this(1);//this -->always must be 1 line inside the constructor
 		//this(1,2); CE: this is located on 2 line
 		System.out.println("Hi");
 	}

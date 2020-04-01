@@ -19,7 +19,8 @@ public static void main(String[] args) {
 		dog.sleep();
 		Dog.age=2;
 		Dog.display();
-		
+		Animals.age=4;
+		Animals.display();
 		System.out.println("---------------------------");
 		
 		Animals animal=new Animals();
