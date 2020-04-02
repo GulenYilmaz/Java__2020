@@ -27,7 +27,7 @@ class Developer extends ScrumTeam {
 	}
 }
 
-class Tester extends ScrumTeam {
+class Testers extends ScrumTeam {
 	void test() {
 		System.out.println("Testers ensures quality of codeing");
 	}
