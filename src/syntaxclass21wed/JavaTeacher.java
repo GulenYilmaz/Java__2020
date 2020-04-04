@@ -3,7 +3,7 @@ package syntaxclass21wed;
 public class JavaTeacher extends Teacher{
 	
 	//compiler will try to create default constructor
-	//and make a call inside to parent class default constructo
+	//and make a call inside to parent class default constructor
 //	JavaTeacher(){
 //		super();
 //	}
