@@ -12,14 +12,17 @@ public class StudentTest {
 		SyntaxStudent syntax=new SyntaxStudent();
 		syntax.doHomework();
 		syntax.study();
-		syntax.accessParentOverridenMethod();
+		
+		syntax.accessParentOverridenMethod();// parent class daki methodu yazdirmak istersek , 
+		//child class da yeni bir method yapip super keyword ile cagirabiliriz
 		syntax.getJob();
 		
 		System.out.println("---- SyntaxStudent Object and Student Reference Type");
-		Student st=new SyntaxStudent();
+		Student st=new SyntaxStudent();//----> upcasting
+		//syntaz student is already student 
 		st.study();
 		st.doHomework();
 
-		//SyntaxStudent st1=new Student();
-	}
+		//SyntaxStudent st1=new Student();--->down casting
+	}   // every student is not syntax student , thats why we can not downcasting
 }

@@ -25,6 +25,8 @@ class Bird extends Animal{
 		System.out.println("Bird sleeps");
 	}
 	
+	//@Override
+	// private method do not overriding
 	private void eat() {
 		System.out.println("Birds eat too");
 	}

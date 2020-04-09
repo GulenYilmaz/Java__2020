@@ -24,4 +24,7 @@ class InternetExplorerDriver extends WebDriver {
 	public void open() {
 		System.out.println("Opening ie browser");
 	}
+	public void close() {
+		System.out.println("Opening ie close");
+	}
 }

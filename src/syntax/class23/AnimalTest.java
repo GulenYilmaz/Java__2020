@@ -5,11 +5,12 @@ public class AnimalTest {
 	public static void main(String[] args) {
 		
 		Animal animal=new Bird();
-		animal.sleep();
-		animal.whoAmI();
+		animal.sleep();//--->Bird sleeps
 		
-		Animal.whoAmI();
-		Bird.whoAmI();
+		animal.whoAmI();//--->I am an animal
+		Animal.whoAmI();//--->I am an animal
+		
+		Bird.whoAmI();//--->I am a bird
 		
 	}
 }

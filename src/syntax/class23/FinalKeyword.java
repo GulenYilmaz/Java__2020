@@ -5,9 +5,15 @@ public class FinalKeyword {
 	public static String str="Hello";
 	static final String str1="Bye";//Final variable=CONSTANT
 	
-	public static final String APPLICATION_URL="https://syntaxtechs.com";
+	
+	
+	public static final String APPLICATION_URL="https://syntaxtechs.com";// uppercase
 	
 	final char GRADE='A';
+//	public final FinalKeyword(){
+//		
+//	}---------------> we can not use final in constructor
+	
 	
 	public static void main(String[] args) {
 		

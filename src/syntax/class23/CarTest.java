@@ -12,7 +12,10 @@ public class CarTest {
 		Car merc = new Mercedes("Mercedes");
 		Car honda = new Honda("Honda");
 
-		Car[] cars = { new BMW("BMW"), new Tesla("Tesla"), new Mercedes("Mercedes"), new Honda("Honda") };
+		Car[] cars = { new BMW("BMW"), 
+				      new Tesla("Tesla"), 
+				      new Mercedes("Mercedes"), 
+				      new Honda("Honda") };
 		
 		for(Car c:cars) {
 			c.start();
