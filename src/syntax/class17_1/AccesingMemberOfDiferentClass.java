@@ -1,6 +1,6 @@
 package syntax.class17_1;
 
-import syntax.class17wed.Employee;
+import syntax.class17__AccessModifiers.Employee;
 
 public class AccesingMemberOfDiferentClass {
 

@@ -1,6 +1,6 @@
 package syntax.class18_1;
 
-import syntax.class18.Task3Constructor;
+import syntax.class18__Constructor_ThisKeyword.Task3Constructor;
 
 public class ConstructorTest {
 

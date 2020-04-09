@@ -1,6 +1,6 @@
 package syntax.class20_1;
 
-import syntax.class20.Employee;
+import syntax.class20__SuperKeyword.Employee;
 
 public class WaterfallTeam  extends Employee {
 
