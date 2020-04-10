@@ -1,15 +1,6 @@
 package syntax.class25__Interface;
 
-interface CreditUnion{
-	
-	void giveCredit();
-}
 
-class Finance{
-	 public void financing() {
-		 System.out.println("Dealing with financing");
-	 }
-}
 
 public interface Trustable {
 	// by default compiler will make method to be public and abstract
@@ -22,6 +13,27 @@ interface Bank extends Trustable{
 	
 	void withdraw();
 }
+
+
+
+
+
+
+interface CreditUnion{// other interface same page without public
+	
+	void giveCredit();
+}
+
+class Finance{
+	 public void financing() {
+		 System.out.println("Dealing with financing");
+	 }
+}
+
+
+
+
+
 
 class BOA extends Finance implements Bank, CreditUnion  {
 

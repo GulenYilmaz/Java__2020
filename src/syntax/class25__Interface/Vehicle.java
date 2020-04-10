@@ -9,8 +9,9 @@ public abstract class Vehicle {
 		this.color = color;
 		totalVehicles++;
 	}
-
-	public static void total() {
+    private void t() { }//-->we can have private method inside the abstract class but we can not use it
+	
+    public static void total() {
 		System.out.println("we build " + totalVehicles);
 	}
 
@@ -22,11 +23,12 @@ public abstract class Vehicle {
 		System.out.println("Vehicle stops");
 	}
 
-	abstract void start();
+	abstract void start();//---->undefined method can be default 
 	
-	//abstract void start(String help);
+	//abstract void start(String help);---> we can overloading abstract method
 
-	protected abstract void brake();
+	protected abstract void brake();//---->undefined method can be protected
+	// private abstract void see(); //---->undefined method can NOT be private
 }
 
 class Bus extends Vehicle{

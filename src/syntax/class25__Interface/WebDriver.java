@@ -7,16 +7,15 @@ package syntax.class25__Interface;
  */
 interface TakesScreenshot{
 	
-	String fileExtension=".png";
+	String File_Extension=".png";
 	
 	void takePicture();
 	
 	//features below were added from Java 1.8 version
-	static void takeSelfie() {
+	static void takeSelfie() {         //------>we can use static non access modifier with defined methods
 		System.out.println("I can take a selfie");
 	}
-	
-	default void takePanoramaPic() {
+	default void takePanoramaPic() {   //------>we can use default access modifier with defined methods
 		System.out.println("I can take panoramic pistures");
 	}
 }
@@ -32,7 +31,7 @@ public interface WebDriver {
 	void findElement();
 }
 
-class ChromeDriver implements WebDriver, TakesScreenshot {
+class ChromeDriver implements WebDriver, TakesScreenshot {// we can implement more interface with (,)
 	@Override
 	public void openBrowser() {
 		System.out.println("We can open Chrome");
