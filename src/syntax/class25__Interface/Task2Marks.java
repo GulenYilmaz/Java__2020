@@ -1,17 +1,11 @@
 package syntax.class25__Interface;
 /*
- * We have to calculate the average 
- * of marks obtained in three subjects 
- * by student A and by student B. 
- * Create class ‘Marks’ with an abstract method 
- * ‘getPercentage’ that will be returning 
- * the average percentage of marks. 
- * Provide implementation of abstract 
- * method in classes ‘A’ and ‘B’. 
- * The constructor of student A takes
- *  the marks in three subjects as its 
- *  parameters and the marks in four subjects 
- *  as its parameters for student B. 
+ * We have to calculate the average of marks obtained in three subjects by student A and by student B. 
+ * Create class ‘Marks’ with an abstract method ‘getPercentage’ 
+ * that will be returning the average percentage of marks. 
+ * Provide implementation of abstract method in classes ‘A’ and ‘B’. 
+ * The constructor of student A takesthe marks in three subjects as its 
+ * parameters and the marks in four subjects as its parameters for student B. 
  * Test your code
  */
 public abstract class Task2Marks {
@@ -33,9 +27,10 @@ public abstract class Task2Marks {
     }
     @Override
 	public void getPercentage() {
-    int total=(math+science+ss);
-    double percentage=(total)/100;
-    System.out.println(" Student A's percentage is "+percentage);
+    double total, percent;
+    total=(math+science+ss);
+    percent=(total)/3;
+    System.out.println("Average of student A is "+percent);
 	}
 }class B extends Task2Marks{
     int history;
@@ -48,9 +43,10 @@ public abstract class Task2Marks {
     }
     @Override
 	public void getPercentage() {
-    	int t=(math+science+history+art);
-        double percent=(t)/100;
-        System.out.println(" Student B's percentage is "+percent);		
+    	double t, percent;
+    	t=(math+science+history+art);
+        percent=(t)/4;
+        System.out.println("Average of student B is "+percent);		
 	}
 	
 }

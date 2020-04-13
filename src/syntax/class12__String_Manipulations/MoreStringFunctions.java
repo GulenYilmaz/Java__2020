@@ -1,4 +1,4 @@
-package syntax.class12__StringManipulations;
+package syntax.class12__String_Manipulations;
 
 public class MoreStringFunctions {
 

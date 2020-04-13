@@ -1,4 +1,4 @@
-package syntax.class11__StringManipulations;
+package syntax.class11__String_Manipulations;
 
 public class StringDemo {
 

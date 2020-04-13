@@ -10,7 +10,7 @@ which returned price calculated as following:
 if weight>2000 then returned price 
 car should include 10% discount, otherwise 20% discount.
  */
-public class Task3Car {
+public abstract class Task3Car {
 
 	double carPrice;
 	String color;
@@ -20,17 +20,20 @@ public class Task3Car {
 		this.color=color;
 	}
 	
-	public double calculateSalePrice() {
+	public abstract double calculateSalePrice(); 
 	
-		double carPrice=0;
 		
-		return carPrice;
-	}	
+		
 }
 class sedan extends Task3Car{
 
 	sedan(double carPrice, String color) {
 		super(carPrice, color);
+	}
+
+	@Override
+	public double calculateSalePrice() {
+		return 0;
 	}
 	
 }
@@ -43,7 +46,6 @@ class Truck extends Task3Car{
      }
 	public double calculateSalePrice() {
 		
-		double carPrice=12000 ;
 		if (weight>2000) {
 			carPrice= (carPrice-(carPrice*(0.1)));
 		}else {
