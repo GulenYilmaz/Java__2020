@@ -22,11 +22,16 @@ public class ArrayListIntro {
 			int num=numbers.get(i);//autounboxing
 			System.out.println(num);
 		}
+		
+		
 
 		System.out.println(" ------ ------- -----");
 		
 		for(int num: numbers) {
 			System.out.println(num);
 		}
+	
+		
 	}
+	
 }
