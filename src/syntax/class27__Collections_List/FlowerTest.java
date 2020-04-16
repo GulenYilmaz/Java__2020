@@ -1,6 +1,7 @@
 package syntax.class27__Collections_List;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class FlowerTest {
 
@@ -14,6 +15,30 @@ public class FlowerTest {
 		flowers.add(new Rose("Rose"));
 		flowers.add(new Tulip("Tulip"));
 		flowers.add(new Sunflower("Sunflower"));
+		
+		
+		
+		for (int i =0; i<flowers.size(); i++) {
+	    	Flower str=flowers.get(i);
+	    	str.bloom();
+	     	
+	    }
+	    System.out.println("-------------------------");
+	    Iterator<Flower> it=flowers.iterator();
+	    while (it.hasNext()) {
+	    	Flower str=it.next();
+	    	str.bloom();
+	    }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		//flowers.add("Rose");cannot add String Object into ArrayList of Flower Objects
 		
 		//1. hw to call available methods using: for loop, advanced for loop, iterator
