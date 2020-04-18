@@ -1,4 +1,4 @@
-package syntax.class28__Iterator;
+package syntax.class28__Iterator__linkedList;
 
 import java.util.ArrayList;
 import java.util.Iterator;

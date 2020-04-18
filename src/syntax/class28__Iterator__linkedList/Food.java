@@ -1,4 +1,4 @@
-package syntax.class28__Iterator;
+package syntax.class28__Iterator__linkedList;
 
 public abstract class Food {
 	

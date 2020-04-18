@@ -1,7 +1,7 @@
-package syntax.class27__Collections_List;
+package syntax.class27__Collections_List_ArrayList;
 //define flower class that will have String type, 
 
-//constructor that initializes a variables and undefine method bloom
+//constructor that initializes a variables and undefined method bloom
 
 public abstract class Flower {
 

@@ -1,4 +1,4 @@
-package syntax.class27__Collections_List;
+package syntax.class27__Collections_List_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -14,17 +14,16 @@ public class Task2 {
 		 
 
 			ArrayList<String> greetings = new ArrayList<>();
-			greetings.add("Hello");
-			greetings.add("Merhaba");
-			greetings.add("As-salam alaykom");
+			greetings.add("Hi");
+			greetings.add("hello");
 			greetings.add("Hola");
-			greetings.add("Zdravstvuyte");
+			
 			Iterator<String> greetings2 = greetings.iterator();
 			while (greetings2.hasNext()) {
-				if (greetings2.next().endsWith("e")) {
+				if (greetings2.next().endsWith("a")) {
 					greetings2.remove();
 				}
 			}
-			System.out.println(greetings);
+			System.out.println(greetings);//--->[Hi, hello]
 		}
 	}

@@ -1,10 +1,10 @@
-package syntax.class27__Collections_List;
+package syntax.class27__Collections_List_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
 /*
-1)Create an arraylist of cars and retrieve all the values using 3 different ways.
+1)Create an ArrayList of cars and retrieve all the values using 3 different ways.
 */
 
 public class Task1 {
@@ -33,7 +33,7 @@ public class Task1 {
 		for(String car:cars) {
 			System.out.println(car);}
 		
-		//thirt way iterate
+		//third way iterate
 		System.out.println("------iterate -------");
 		
 		Iterator <String> car = cars.iterator();

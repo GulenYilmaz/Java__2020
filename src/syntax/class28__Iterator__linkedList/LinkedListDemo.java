@@ -1,4 +1,4 @@
-package syntax.class28__Iterator;
+package syntax.class28__Iterator__linkedList;
 
 
 import java.util.ArrayList;
@@ -36,8 +36,13 @@ public class LinkedListDemo {
 			System.out.println(str);
 		}
 		
+		
+		
+		
 		//can we store objects of user defined classes?
 		List<Food> food=new LinkedList<>();
+		
+		
 		food.add(new Salad("salad", "tomato and cucumber", 100));
 		food.add(new Dessert("desert", "chocolate", 1000));
 		food.add(new MainDish("pasta", "mushrooms", 800));
