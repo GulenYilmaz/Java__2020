@@ -25,7 +25,7 @@ public static void main(String[] args) {
     	card.monthlyMaintanence();
     }
     System.out.println("-----  iterator  ------");
-    Iterator <Homework2Card> it1= cards.descendingIterator();
+    Iterator <Homework2Card> it1= cards.descendingIterator();// this iterator order last to first
     while(it1.hasNext()) {
     	Homework2Card str=it1.next();
     	str.transferFee();
