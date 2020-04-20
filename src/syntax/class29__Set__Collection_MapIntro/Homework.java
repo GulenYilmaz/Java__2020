@@ -1,4 +1,4 @@
-package syntax.class29__Set__Collection;
+package syntax.class29__Set__Collection_MapIntro;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package syntax.class29__Set__Collection;
+package syntax.class29__Set__Collection_MapIntro;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -19,11 +19,13 @@ public class StroringDifferentObjects {
 		while(it.hasNext()) {
 			//Insurance obj=new Car("Geico", "BMW")
 			//we need to assing it to the variable because if we use it.next() --> moves to the next element
-			Insurance obj=it.next();
+			
+			Insurance obj=it.next();// this is our reference type and we assign the value and call the method
 			obj.getQuote();
 			obj.cancelInsurance();
 			obj.method();
-			//obj.diplay --> won't be available to insurance type
+			
+			//obj.diplay --> won't be available to insurance type because this methods belong to child class not insurance
 			System.out.println("----------------------");
 		}
 	}

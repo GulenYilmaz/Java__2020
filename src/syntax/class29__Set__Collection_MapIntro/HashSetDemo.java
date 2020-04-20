@@ -1,4 +1,4 @@
-package syntax.class29__Set__Collection;
+package syntax.class29__Set__Collection_MapIntro;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -20,23 +20,29 @@ public class HashSetDemo {
 		// how many elements in the set?
 		int size = breakfast.size();
 		System.out.println(size);
+		
 		// order is not maintained
 		System.out.println(breakfast);
 
-		// we need to retrieve an element --> not get method available
+		// we need to retrieve an element --> not get method available-->get available inside the List collection
+		// because it works with index
 
-		// we can retrieve all elements!
+		//1 way
+		// we can retrieve all elements! with iterator();
 		Iterator<String> myIterator = breakfast.iterator();
 		while (myIterator.hasNext()) {
 			System.out.println(myIterator.next());
 		}
+		
+		
 		//we cannot use for loop
 //		for(int i=0;i<breakfast.size(); i++) {
-//			breakfast.ge
+//			breakfast.ge     ---> because it does not work without index
 //		}
 		System.out.println("-------- ----------- ----------");
-		//advanced/enhanced for loop/for each loop
 		
+		// 2 way
+		//advanced/enhanced for loop/for each loop
 		for(String item:breakfast) {
 			System.out.println(item);
 		}

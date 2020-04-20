@@ -1,4 +1,4 @@
-package syntax.class29__Set__Collection;
+package syntax.class29__Set__Collection_MapIntro;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -18,7 +18,7 @@ public class SetFamily {
 		veggies.add("cucumber");
 		veggies.add("tomato");
 		System.out.println(veggies);//-->[potato, cucumber, tomato, eggplant, carrot]
-		                            //---> order hashset code
+		                            //---> orderHashSet code
 		
 		
 		//LinkedHashSet guarantee insertion order

@@ -1,6 +1,4 @@
-package syntax.class29__Set__Collection;
-
-
+package syntax.class29__Set__Collection_MapIntro;
 
 abstract class Coverage{
 	
@@ -8,6 +6,8 @@ abstract class Coverage{
 		System.out.println("Method of coverage class");
 	}
 }
+
+
 
 public abstract class Insurance extends Coverage{
 	
@@ -21,6 +21,8 @@ public abstract class Insurance extends Coverage{
 
 	public abstract void cancelInsurance();
 }
+
+
 
 class Car extends Insurance {
 	String carModel;
@@ -45,6 +47,8 @@ class Car extends Insurance {
 	}
 }
 
+
+
 class Pet extends Insurance {
 	String petType;
 
@@ -63,6 +67,8 @@ class Pet extends Insurance {
 		System.out.println("Canceled due to high prices");
 	}
 }
+
+
 
 class Health extends Insurance {
 	Health(String insuranceName) {
