@@ -26,10 +26,16 @@ public class MapHW {
 		
 		System.out.println(building.size());
 		System.out.println(building);
+		System.out.println("-----------------------");
+		
+		
+
+		
+		
 		
 		//how to get all keys
 		Set<Integer> keys=building.keySet();
-		System.out.println(building.keySet());//print set
+		System.out.println(building.keySet());//[print set]
 		
 		System.out.println("--- getting keys using iterator ---- ");
 		Iterator<Integer> keysIt=keys.iterator();
@@ -39,18 +45,28 @@ public class MapHW {
 			System.out.println("Key is "+key+" its value is "+building.get(key));
 		}
 		
+		
 		System.out.println("--- getting keys using for each loop ---- ");
 		for(int k:keys) {
 			System.out.println("Key from building map= "+k+":"+building.get(k));
 		}
 
+		
+		
+		
+		
+		
+		
 		//how to get all values
-		Collection<String> values=building.values();//Iterable=collection
+		Collection<String> values=building.values();//Iterable=Collection---> /Upcasting
+		//Iterable<---Collection<---Set or List or Queue
+		
 		
 		System.out.println("--- getting all values using for each loop ---- ");
 		for(String v:values) {
 			System.out.println("Value from collection "+v);
 		}
+		
 		
 		System.out.println("--- getting all values using iterator ---- ");
 		Iterator<String> valuesIt=values.iterator();

@@ -7,7 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class AllMaps {
+public class AllMaps__2collectionAdding_getKey_getValue {
 
 	public static void main(String[] args) {
 		//lets create a grocery map (item, quantity)in which we do not care about the order
@@ -28,29 +28,30 @@ public class AllMaps {
 		household.put("face mask", 50);
 		System.out.println(household);
 		
+		
 		//create a map in which we store all previous items in ascending order
-		Map<String, Integer> shopping =new TreeMap<>(grocery);
-		shopping.putAll(household);
+		Map<String, Integer> shopping =new TreeMap<>(grocery);//---> call the grocery map using constructor
+		shopping.putAll(household);                           //---> call the household map using method putAll
 		System.out.println(shopping);
 		
 		//get all keys using loop
-		for(String key:shopping.keySet()) {
+		for(String key:shopping.keySet()) {//--->not just shopping--> shopping .keySet();
 			System.out.println("Key: "+key);
 		}
 		
 		//get all keys using iterator
-		Iterator<String> it=shopping.keySet().iterator();
+		Iterator<String> it=shopping.keySet().iterator();//--->not just shopping--> shopping .keySet();
 		while(it.hasNext()) {
 			System.out.println("Key="+it.next());
 		}
 		
 		//get all values using loop
-		for(int val:shopping.values()) {
+		for(int val:shopping.values()) {//--->not just shopping--> shopping .value();
 			System.out.println("Value:"+val);
 		}
 		
 		//get all values using iterator
-		Iterator<Integer> iterator=shopping.values().iterator();
+		Iterator<Integer> iterator=shopping.values().iterator();//--->not just shopping--> shopping .value();
 		while(iterator.hasNext()) {
 			System.out.println("value = "+iterator.next());
 		}
