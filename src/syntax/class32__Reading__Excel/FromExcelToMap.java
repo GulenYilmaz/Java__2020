@@ -16,7 +16,7 @@ public class FromExcelToMap {
 
 	public static void main(String[] args) throws IOException {
 
-		String filePath = System.getProperty("user.dir") + "\\testdata\\Book1.xlsx";
+		String filePath = System.getProperty("user.dir") + "\\testdata\\test1.xlsx";
 		FileInputStream fis = new FileInputStream(filePath);
 
 		Workbook book = new XSSFWorkbook(fis);
