@@ -49,7 +49,7 @@ public static void main(String[] args) throws IOException {
 	
 	for(Map<String, String> map:xlData) {
 		System.out.println(map);
-	}
 	
+	}
 }
 }

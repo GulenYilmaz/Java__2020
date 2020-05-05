@@ -15,7 +15,15 @@ public static void main(String[] args) {
 			//to get info about the exception
 			//se.printStackTrace();//name, message about E, where it occurs
 			//System.out.println(se);//name, message about E
-			System.out.println(se.getMessage());
+			
+			
+			System.out.println(se.getMessage());//--->String index out of range: 10
+			
+			System.out.println("---printStackTrace()----");
+			se.printStackTrace();
+			
+			System.out.println("---sopln( se )----");
+			System.out.println(se);
 		}
 		
 		System.out.println(" -----   END OF THE PROGRAM --------");

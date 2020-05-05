@@ -24,7 +24,7 @@ public class task2 {
 
 		Iterator<Exception> eit = list.iterator();
 		while (eit.hasNext()) {
-			eit.next().printStackTrace();
+			eit.next().printStackTrace();//--> give all information abour exception
 		}
 	}
 

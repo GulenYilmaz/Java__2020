@@ -7,7 +7,7 @@ import java.util.Properties;
 public class MultibleCatch {
 public static void main(String[] args) {
 		
-		String file=System.getProperty("user.dir")+"/configs/configuration.propertie";
+		String file=System.getProperty("user.dir")+"\\configs\\configuration.properties";
 		
 		try {
 			
