@@ -9,14 +9,14 @@ public static void main(String[] args) {
 			
 			char character=str.charAt(10);// new StringIndexOutOfBoundsException();
 			
-			System.out.println(character);
+		//	System.out.println(character);
 		
 		}catch (StringIndexOutOfBoundsException se) {
 			//to get info about the exception
 			//se.printStackTrace();//name, message about E, where it occurs
 			//System.out.println(se);//name, message about E
 			
-			
+			System.out.println("-----");
 			System.out.println(se.getMessage());//--->String index out of range: 10
 			
 			System.out.println("---printStackTrace()----");
